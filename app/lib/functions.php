@@ -1,8 +1,10 @@
 <?php
 
 /**
- * @param $name
- * @param string $def
+ * This function "handles" incoming requests.
+ * 
+ * @param $name - Request to search for.
+ * @param string $def - The default request if none is found.
  * @return string
  */
 function get($name, $def='')
